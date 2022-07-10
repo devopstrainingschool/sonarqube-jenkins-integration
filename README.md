@@ -28,6 +28,6 @@
 #### Server URL: sonarqube url
 ## WebHook:
 ### Also need to create webhook to have communication between jenkins and sonarqube To create webhook navigate to administration --> configuration --> webhooks --> then provide name and url of your jenkins sufixed with /sonarqube-webhook/
-### for example: http://jenkinsipaddress:8080/sonarqube-webhook
+### for example: http://jenkinsipaddress:8080/sonarqube-webhook/
 ![image](https://user-images.githubusercontent.com/107158398/178148430-29f23e1c-5a80-4a73-a875-038be311bda5.png)
 ### 
