@@ -22,13 +22,14 @@
 
 ![image](https://user-images.githubusercontent.com/107158398/178148298-258186a2-124b-4cee-ac3a-4929f4fb686d.png)
 
-### Go to manage Jenkins, system configure, and scroll down looking for sonarqube server
+## 3- Go to manage Jenkins, system configure, and scroll down looking for sonarqube server
 ### - check on environment variables
 ### - click on add sonarqube 
 ![image](https://user-images.githubusercontent.com/107158398/178148352-81bbe91e-7916-4174-9137-23aa923074a4.png)
 
 #### Name: any meaningful name, but this will be referred in pipeline while executing sonar steps
 #### Server URL: sonarqube url
+#### Server authentication token: the one we created in the previous step (sonartoken)
 ## WebHook:
 ### Also need to create webhook to have communication between jenkins and sonarqube To create webhook navigate to administration --> configuration --> webhooks --> then provide name and url of your jenkins sufixed with /sonarqube-webhook/
 ### for example: http://jenkinsipaddress:8080/sonarqube-webhook/
