@@ -17,7 +17,8 @@
 
 ### Copy the token to create secret text in jenkins
 ![image](https://user-images.githubusercontent.com/107158398/178148258-8f2424c2-e0da-4fa7-8663-4747d9a624b9.png)
-### In Jenkins navigate manage Jenkins --> manage credentials --> add credentials --> select kind as secret text --> give value in secret ( will show up in sonar authentication token dropdown)
+### In Jenkins 
+#### navigate manage Jenkins --> manage credentials --> add credentials --> select kind as secret text --> give value in secret ( will show up in sonar authentication token dropdown)
 
 ![image](https://user-images.githubusercontent.com/107158398/178148298-258186a2-124b-4cee-ac3a-4929f4fb686d.png)
 
