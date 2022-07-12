@@ -30,8 +30,17 @@
 #### Name: any meaningful name, but this will be referred in pipeline while executing sonar steps
 #### Server URL: sonarqube url
 #### Server authentication token: the one we created in the previous step (sonartoken)
-## WebHook:
-### Also need to create webhook to have communication between jenkins and sonarqube To create webhook navigate to administration --> configuration --> webhooks --> then provide name and url of your jenkins sufixed with /sonarqube-webhook/
-### for example: http://jenkinsipaddress:8080/sonarqube-webhook/
-![image](https://user-images.githubusercontent.com/107158398/178148430-29f23e1c-5a80-4a73-a875-038be311bda5.png)
+#### click on apply and save
+
+## 4- WebHook:
+### Also need to create webhook to have communication between jenkins and sonarqube 
+#### To create webhook on Sonarqube Server
+#### navigate to administration --> configuration --> webhooks -->create 
+then provide name and url of your jenkins sufixed with /sonarqube-webhook/
+#### for example: http://jenkinsipaddress:8080/sonarqube-webhook/
+![image](https://user-images.githubusercontent.com/107158398/178559545-24562c3c-6017-458d-b0c7-c1dc7cc76afa.png)
+#### then click on create
+#### you will see something smilar to this:
+
+![image](https://user-images.githubusercontent.com/107158398/178559811-07756172-97e2-4ba7-afef-b87119e55b8f.png)
 ### 
