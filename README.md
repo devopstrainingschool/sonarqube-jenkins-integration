@@ -32,7 +32,7 @@
 #### Server authentication token: the one we created in the previous step (sonartoken)
 #### click on apply and save
 
-## 4- WebHook:
+## 4- WebHook
 ### Also need to create webhook to have communication between jenkins and sonarqube 
 #### To create webhook on Sonarqube Server
 #### navigate to administration --> configuration --> webhooks -->create 
