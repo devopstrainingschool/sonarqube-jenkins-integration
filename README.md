@@ -6,7 +6,7 @@
 ### In Jenkins install plugins like docker, sonarqube sacnner and Sonar quality gate plugin 
 #### (manage Jenkins --> manage plugins --> in available tab search for respective plugins) After sonar plugin installation in configure system enter sonar information as shown in below picture
 ## 2-Server authentication token:
-### this token has to be created in sonarqube To create that token in sonarqube navigate to administration --> Security --> Users ( after which you will see list of users)
+### The token has to be created in sonarqube To create that token in sonarqube navigate to administration --> Security --> Users ( after which you will see list of users)
 ![image](https://user-images.githubusercontent.com/107158398/178148153-183d1a38-5b37-419f-bb1a-b5328c99287a.png)
 ### Click on token button, you will prompted to create token as shown in below pictures
 ![image](https://user-images.githubusercontent.com/107158398/178148186-4b0ee55e-ff9e-4d62-b785-3f0ba480e509.png)
